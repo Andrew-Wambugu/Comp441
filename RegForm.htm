@@ -1,0 +1,179 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Transparent Login Form</title>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="#"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <!-- tyr -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="js/bootstrap.min.js">
+	<link rel="stylesheet" href="font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/jsp.css">
+</head>
+
+<body>
+
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+
+        <!-- Header -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#topNavBar" aria-expanded="false">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Uni-Plus System</a>
+        </div>
+
+        <!-- Items -->
+        <div class="collapse navbar-collapse" id="topNavBar">
+            <!--<ul class="nav navbar-nav">
+                <li class=""><a href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>&nbsp; Albums</a></li>
+                <li class=""><a href="#"><span class="glyphicon glyphicon-music" aria-hidden="true"></span>&nbsp; Songs</a></li>
+            </ul>-->
+           <!-- <form class="navbar-form navbar-left" role="search" method="get" action="#">
+                <div class="form-group">
+                    <input type="text" class="form-control" name="q" value="">
+                </div>
+                <button type="submit" class="btn btn-default">Search</button>
+            </form>-->
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="#">
+                        <span class="glyphicon glyphicon-user" aria-hidden="true"></span>&nbsp; Welcome
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="glyphicon glyphicon-off" aria-hidden="true"></span>&nbsp; Logout
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container" id="contain">
+    <div class="row">
+       <div class="col-md-3">
+       <div class="panel panel-primary" id="ONE">
+       	<div class="panel-body">
+       	<h2>QUICK LINKS</h2>
+       	<br>
+       	<br>
+       		<ul class="nav nav-pills nav-stacked">
+       			<li class="active"><a href="#">HTML</a></li>
+       			<li><a href="#">CSS</a></li>
+       			<li><a href="#">JAVA SCRIPT</a></li>
+       			<li><a href="#">PREVIEW</a></li>
+       			<li><a href="#">LINK</a></li>
+       			<li><a href="#">LINK</a></li>
+       			<li><a href="#">LINK</a></li>
+       			<li><a href="#">LINK</a></li>
+       			<li><a href="#">LINK</a></li>
+       			<li><a href="#">LINK</a></li>
+       		</ul>
+       	</div>
+       </div>
+       	
+       </div>
+        <div class="col-md-8">
+            <div class="panel panel-default">
+                <h1>Registration Form</h1>
+                <br>
+                <br>
+                <div class="panel-body">
+                    <form action="" class="form-horizontal">
+                        <div class="form-group">
+                           <label for="1" class="col-sm-2 control-label">NAME:</label>
+                           <div class="col-sm-10">
+                            	<input type="text" id="1" name="" class="form-control" placeholder="Enter your name..." required>
+							</div>
+                        </div><!-- form group-->
+                        <div class="form-group">
+                           <label for="2" class="col-sm-2 control-label">REGNO:</label>
+                           <div class="col-sm-10">
+                            	<input type="text" id="2" name="" class="form-control" placeholder="Enter your RegNo..." required>
+							</div>
+                        </div><!-- form group-->
+                        <div class="form-group">
+                           <label for="3" class="col-sm-2 control-label">PASSWORD:</label>
+                           <div class="col-sm-10">
+                            	<input type="password" id="3" name="" class="form-control" placeholder="Enter Your New Password..." required>
+							</div>
+                        </div><!-- form group-->
+                        <div class="form-group">
+                           <label for="4" class="col-sm-2 control-label">FACULTY:</label>
+                           <div class="col-sm-10">
+                            	<select class="form-control" required>
+                            		<option>...</option>
+									<option>FACULTY OF SCIENCE</option>
+                           			<option>FACULTY OF AGRICULTURE</option>
+                            	</select>
+							</div>
+                        </div><!-- form group-->
+                        <div class="form-group">
+                           <label for="5" class="col-sm-2 control-label">DEPARTMENT:</label>
+                           <div class="col-sm-10">
+                            	<select class="form-control" required>
+                            		<option>...</option>
+									<option>COMPUTER SCIENCE</option>
+                            	</select>
+							</div>
+                        </div><!-- form group-->
+                        
+                        <div class="form-group">
+                           <label for="6" class="col-sm-2 control-label">PROGRAMME:</label>
+                           <div class="col-sm-10">
+                            	<select class="form-control" required>
+                            		<option>...</option>
+									<option>BSc. COMPUTER SCIENCE</option>
+                           			<option>BSc. APPLIED COMPUTER SCIENCE</option>
+                            	</select>
+							</div>
+                        </div><!-- form group-->
+                        
+                        <div class="form-group">
+                           <label for="7" class="col-sm-2 control-label">YEAR OF STUDY:</label>
+                           <div class="col-sm-10">
+                            	<select class="form-control" required>
+									<option>...</option>
+                           			<option>I</option>
+                           			<option>II</option>
+                           			<option>III</option>
+                           			<option>IV</option>
+                           			<option>V</option>
+                            	</select>
+							</div>
+                        </div><!-- form group-->
+                        <div class="form-group">
+                        	<label for="8" class="col-sm-2 control-label">GENDER:</label>
+                        	<div class="col-sm-10">
+                        		<select class="form-control" required>
+                        			<option>...</option>
+                        			<option>MALE</option>
+                        			<option>FEMALE</option>
+                        		</select>
+                        	</div>
+                        </div>
+                        
+                        <div class="form-group">
+                        	<div class="col-sm-offset-10 col-sm-2">
+                        		<button type="submit" class="btn btn-primary " >Submit</button>
+							</div>
+                        </div>
+                        
+                    </form>
+                </div><!-- panel-body -->
+            </div><!-- Panel default -->
+        </div><!-- col -->
+    </div><!-- row -->
+</div><!-- container -->
+</body>
+</html>
